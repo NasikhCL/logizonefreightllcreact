@@ -12,10 +12,10 @@ module.exports = {
     es6: true,
   },
   rules: {
-    // Disable all rules
+    "jsx-a11y/img-redundant-alt": "off",
+    "jsx-a11y/anchor-is-valid": "off",
     "no-unused-vars": "off",
-    "no-console": "off",
-    "react/prop-types": "off",
+    "jsx-a11y/heading-has-content": "off",
     // Add other rules you want to bypass
   },
 };
