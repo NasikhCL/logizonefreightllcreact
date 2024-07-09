@@ -33,7 +33,7 @@ const Carousel = () => {
                     </h1>
                     <p
                       className="text-body mb-5"
-                      style={{ color: "#e7e7e7 !important" }}
+                      style={{ color: "white !important" }}
                     >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
@@ -72,7 +72,7 @@ const Carousel = () => {
                     </h1>
                     <p
                       className="text-body mb-5"
-                      style={{ color: "#e7e7e7 !important" }}
+                      style={{ color: "white !important" }}
                     >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
@@ -111,7 +111,7 @@ const Carousel = () => {
                     </h1>
                     <p
                       className="text-body mb-5"
-                      style={{ color: "#e7e7e7 !important" }}
+                      style={{ color: "white !important" }}
                     >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
@@ -150,7 +150,7 @@ const Carousel = () => {
                     </h1>
                     <p
                       className="text-body mb-5"
-                      style={{ color: "#e7e7e7 !important" }}
+                      style={{ color: "white !important" }}
                     >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
@@ -174,7 +174,7 @@ const Carousel = () => {
               rel="preload"
               className="w-100 carousel-image"
               src={service5}
-              alt="Image"
+              alt="caorusel"
             />
             <div className="carousel-caption">
               <div className="container">
@@ -188,7 +188,7 @@ const Carousel = () => {
                     </h1>
                     <p
                       className="text-body mb-5"
-                      style={{ color: "#e7e7e7 !important" }}
+                      style={{ color: "white !important" }}
                     >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
