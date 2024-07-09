@@ -18,16 +18,16 @@ const Footer = () => {
                 with years in freight and logistics industry.
               </p>
               <div className="d-flex pt-2">
-                <a className="btn btn-square me-1" href="">
+                <a className="btn btn-square me-1" href="www.twitter.com">
                   <i className="fab fa-twitter" />
                 </a>
-                <a className="btn btn-square me-1" href="">
+                <a className="btn btn-square me-1" href="www.facebook.com">
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a className="btn btn-square me-1" href="">
+                <a className="btn btn-square me-1" href="www.youtube.com">
                   <i className="fab fa-youtube" />
                 </a>
-                <a className="btn btn-square me-0" href="">
+                <a className="btn btn-square me-0" href="www.linkedin.com">
                   <i className="fab fa-linkedin-in" />
                 </a>
               </div>

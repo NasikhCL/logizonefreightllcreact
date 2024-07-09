@@ -19,7 +19,7 @@ const Carousel = () => {
               rel="preload"
               className="w-100 carousel-image"
               src={service1}
-              alt="Image"
+              alt="carousel"
             />
             <div className="carousel-caption">
               <div className="container">
@@ -58,7 +58,7 @@ const Carousel = () => {
               loading="eager"
               className="w-100 carousel-image"
               src={service2}
-              alt="Image"
+              alt="carousel"
             />
             <div className="carousel-caption">
               <div className="container">
@@ -97,7 +97,7 @@ const Carousel = () => {
               loading="eager"
               className="w-100 carousel-image"
               src={service3}
-              alt="Image"
+              alt="carousel"
             />
             <div className="carousel-caption">
               <div className="container">
@@ -136,7 +136,7 @@ const Carousel = () => {
               loading="eager"
               className="w-100 carousel-image"
               src={service4}
-              alt="Image"
+              alt="carousel"
             />
             <div className="carousel-caption">
               <div className="container">
