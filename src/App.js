@@ -1,23 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes, useLocation } from "react-router-dom";
+import Home from "./routes/Home";
+import About from "./routes/About";
+import Service from "./routes/Service";
+import Navbar from "./components/navbar/Navbar";
+import Spinner from "./components/Spinner";
 
+import "animate.css";
+import { useEffect, useState } from "react";
+import ContactUs from "./routes/ContactUs";
+import NotFound from "./routes/NotFound";
+import { ScrollToTopOnPageChange } from "./components/ScrollToTopOnPageChange";
+import University from "./routes/University";
+import Footer from "./components/Footer/Footer";
 function App() {
+  const [loading, setLoading] = useState(false); // Initially set to false
+  const location = useLocation();
+  useEffect(() => {
+    setLoading(true); // Set loading to true when location changes
+
+    const spinnerTimeout = setTimeout(() => {
+      setLoading(false); // Set loading to false after a delay
+    }, 1000); // Adjust the delay as needed
+
+    return () => clearTimeout(spinnerTimeout);
+  }, [location]); // Re-trigger effect when location changes
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="overflow-hidden">
+      {loading && <Spinner />}
+
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element=<Home /> />
+        <Route path="/about" element=<About /> />
+        <Route path="/service" element=<Service /> />
+        <Route path="/contact" element=<ContactUs /> />
+        <Route path="/university" element=<University /> />
+        <Route path="/*" element=<NotFound /> />
+      </Routes>
+      <ScrollToTopOnPageChange />
+      <Footer />
     </div>
   );
 }
