@@ -80,8 +80,13 @@
 
 /*** Navbar ***/
 .navbar.sticky-top {
-  top: -100px;
-  transition: .5s;
+  transition: 0.5s;
+  position: fixed;
+  z-index: 1030 !important;
+  top: 0; 
+  width: 100%; 
+  left: 0; 
+  right: 0; 
 }
 
 .navbar .navbar-brand img {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import $ from "jquery";
 import LogoSvg from "../LogoSvg";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -46,11 +46,11 @@ const Navbar = () => {
 
   return (
     <nav className="navbar  navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-      <a href="index" className="navbar-brand d-flex align-items-center">
+      <Link to="/" className="navbar-brand d-flex align-items-center">
         <div style={{ display: "flex", alignItems: "center", height: "auto" }}>
           <LogoSvg />
         </div>
-      </a>
+      </Link>
       <button
         type="button"
         className="navbar-toggler"

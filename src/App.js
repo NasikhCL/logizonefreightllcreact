@@ -12,10 +12,15 @@ import ContactUs from "./routes/ContactUs";
 import NotFound from "./routes/NotFound";
 import { ScrollToTopOnPageChange } from "./components/ScrollToTopOnPageChange";
 import University from "./routes/University";
+import WOW from "wowjs";
 import Footer from "./components/Footer/Footer";
 function App() {
   const [loading, setLoading] = useState(false); // Initially set to false
   const location = useLocation();
+  useEffect(() => {
+    const wow = new WOW.WOW();
+    wow.init();
+  }, []);
   useEffect(() => {
     setLoading(true); // Set loading to true when location changes
 
