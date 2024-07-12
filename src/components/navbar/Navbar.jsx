@@ -16,33 +16,6 @@ const Navbar = () => {
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
   };
-  useEffect(() => {
-    // Sticky Navbar
-    const handleScroll = () => {
-      if ($(window).scrollTop() > 45) {
-        $(".navbar").addClass("sticky-top shadow-sm");
-      } else {
-        $(".navbar").removeClass("sticky-top shadow-sm");
-      }
-    };
-    $(window).on("scroll", handleScroll);
-
-    // Back to top button
-    const handleBackToTop = () => {
-      if ($(window).scrollTop() > 300) {
-        $(".back-to-top").fadeIn("slow");
-      } else {
-        $(".back-to-top").fadeIn("slow");
-      }
-    };
-    $(window).on("scroll", handleBackToTop);
-
-    // Cleanup
-    return () => {
-      $(window).off("scroll", handleScroll);
-      $(window).off("scroll", handleBackToTop);
-    };
-  }, []);
 
   return (
     <nav className="navbar  navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
