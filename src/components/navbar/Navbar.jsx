@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar  navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
-      <Link to="/" className="navbar-brand d-flex align-items-center">
+      <Link to="/home" className="navbar-brand d-flex align-items-center">
         <div style={{ display: "flex", alignItems: "center", height: "auto" }}>
           <LogoSvg />
         </div>
@@ -34,40 +34,46 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <div className="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
-          <a href="index" className="nav-item nav-link active">
+          <Link to="/" className="nav-item nav-linkc">
             Home
-          </a>
-          <a href="about" className="nav-item nav-link">
+          </Link>
+          <Link to="/about" className="nav-item nav-link">
             About Us
-          </a>
+          </Link>
           {/* <a href="service" class="nav-item nav-link">Our Services</a> */}
           <div className="nav-item dropdown">
-            <a
-              href="#"
+            <Link
+              to="/services"
               className="nav-link dropdown-toggle"
               data-bs-toggle="dropdown"
             >
               Our Services
-            </a>
+            </Link>
             <div className="dropdown-menu bg-light border-0 m-0">
-              <a href="feature" className="dropdown-item">
+              <Link to="/services/air-freight" className="dropdown-item">
                 Air Freight
-              </a>
-              <a href="appointment" className="dropdown-item">
+              </Link>
+              <Link to="/services/sea-freight" className="dropdown-item">
                 Sea Freight
-              </a>
-              <a href="team" className="dropdown-item">
+              </Link>
+              <Link
+                to="/services/inland-transportation"
+                className="dropdown-item"
+              >
                 Inland Transportation
-              </a>
-              <a href="testimonial" className="dropdown-item">
+              </Link>
+              <Link
+                to="/services/warehouse-distribution"
+                className="dropdown-item"
+              >
                 Warehouse &amp; Distribution
-              </a>
+              </Link>
               {/* <a href="404" class="dropdown-item">404 Page</a> */}
             </div>
           </div>
-          <a href="contact" className="nav-item nav-link">
+          <Link to="/contact" className="nav-item nav-link">
             Contact Us
-          </a>
+          </Link>
         </div>
       </div>
       <div className="btn btn-primary px-3 d-none d-lg-block">

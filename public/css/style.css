@@ -151,7 +151,6 @@
   }
 }
 
-
 /*** Header ***/
 .carousel-caption {
   top: 0;
@@ -538,7 +537,9 @@ background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
       height: calc(100vh - 80px); /* 80px is the height of the navbar */
       overflow: hidden; /* Hide any overflowing content */
   }
-  
+  .margin-top-laptop-screen{
+    margin-top: "-96px";
+    }
   
 }
 

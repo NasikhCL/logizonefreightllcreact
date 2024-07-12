@@ -36,11 +36,12 @@ function App() {
 
       <Navbar />
       <Routes>
-        <Route exact path="/" element=<Home /> />
-        <Route path="/about" element=<About /> />
-        <Route path="/service" element=<Service /> />
-        <Route path="/contact" element=<ContactUs /> />
-        <Route path="/university" element=<University /> />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services/*" element={<Service />} />
+        <Route path="/contact" element={<ContactUs />} />
+        {/* <Route path="/university" element=<University /> /> */}
         <Route path="/*" element=<NotFound /> />
       </Routes>
       <ScrollToTopOnPageChange />

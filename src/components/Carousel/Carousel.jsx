@@ -24,10 +24,7 @@ const Carousel = () => {
             <div className="carousel-caption">
               <div className="container">
                 <div className="row">
-                  <div
-                    className="col-12 col-lg-6"
-                    style={{ marginTop: "-96px" }}
-                  >
+                  <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 text-dark mb-3 animated slideInDown"
                       style={{ color: "#E1E1E1 !important" }}
@@ -63,10 +60,7 @@ const Carousel = () => {
             <div className="carousel-caption">
               <div className="container">
                 <div className="row">
-                  <div
-                    className="col-12 col-lg-6"
-                    style={{ marginTop: "-96px" }}
-                  >
+                  <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 text-dark mb-3 animated slideInDown"
                       style={{ color: "#E1E1E1 !important" }}
@@ -102,10 +96,7 @@ const Carousel = () => {
             <div className="carousel-caption">
               <div className="container">
                 <div className="row">
-                  <div
-                    className="col-12 col-lg-6"
-                    style={{ marginTop: "-96px" }}
-                  >
+                  <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 text-dark mb-3 animated slideInDown"
                       style={{ color: "#E1E1E1 !important" }}
@@ -141,10 +132,7 @@ const Carousel = () => {
             <div className="carousel-caption">
               <div className="container">
                 <div className="row">
-                  <div
-                    className="col-12 col-lg-6"
-                    style={{ marginTop: "-96px" }}
-                  >
+                  <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 text-dark mb-3 animated slideInDown"
                       style={{ color: "#E1E1E1 !important" }}
@@ -179,10 +167,7 @@ const Carousel = () => {
             <div className="carousel-caption">
               <div className="container">
                 <div className="row">
-                  <div
-                    className="col-12 col-lg-6"
-                    style={{ marginTop: "-96px" }}
-                  >
+                  <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 text-dark mb-3 animated slideInDown"
                       style={{ color: "#E1E1E1 !important" }}
