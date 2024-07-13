@@ -26,7 +26,7 @@ const Carousel = () => {
                 <div className="row">
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
-                      className="display-3 text-dark mb-3 animated slideInDown"
+                      className="display-3 mb-3 text-e-one animated slideInDown"
                       style={{ color: "#E1E1E1 !important" }}
                     >
                       Logizone Freight LLC{" "}
@@ -62,7 +62,7 @@ const Carousel = () => {
                 <div className="row">
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
-                      className="display-3 text-dark mb-3 animated slideInDown"
+                      className="display-3 mb-3 animated slideInDown text-e-one"
                       style={{ color: "#E1E1E1 !important" }}
                     >
                       Logizone Freight LLC{" "}
@@ -98,7 +98,7 @@ const Carousel = () => {
                 <div className="row">
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
-                      className="display-3 text-dark mb-3 animated slideInDown"
+                      className="display-3 mb-3 animated slideInDown text-e-one"
                       style={{ color: "#E1E1E1 !important" }}
                     >
                       Logizone Freight LLC{" "}
@@ -134,7 +134,7 @@ const Carousel = () => {
                 <div className="row">
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
-                      className="display-3 text-dark mb-3 animated slideInDown"
+                      className="display-3 mb-3 animated slideInDown text-e-one"
                       style={{ color: "#E1E1E1 !important" }}
                     >
                       Logizone Freight LLC{" "}
@@ -169,7 +169,7 @@ const Carousel = () => {
                 <div className="row">
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
-                      className="display-3 text-dark mb-3 animated slideInDown"
+                      className="display-3 mb-3 animated slideInDown text-e-one"
                       style={{ color: "#E1E1E1 !important" }}
                     >
                       Logizone Freight LLC{" "}

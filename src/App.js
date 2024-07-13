@@ -45,7 +45,7 @@ function App() {
         <Route path="/services/warehouse-distribution" element={<Service />} />
         <Route path="/contact" element={<ContactUs />} />
         {/* <Route path="/university" element=<University /> /> */}
-        <Route path="/*" element=<NotFound /> />
+        <Route path="/*" element={<NotFound />} />
       </Routes>
       <ScrollToTopOnPageChange />
       <Footer />

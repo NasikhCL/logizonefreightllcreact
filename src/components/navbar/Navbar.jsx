@@ -43,7 +43,7 @@ const Navbar = () => {
           {/* <a href="service" class="nav-item nav-link">Our Services</a> */}
           <div className="nav-item dropdown">
             <div
-              className="nav-link dropdown-toggle "
+              className="nav-link"
               style={{ cursor: "pointer" }}
               data-bs-toggle="dropdown"
             >

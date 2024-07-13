@@ -41,7 +41,13 @@ const Footer = () => {
               </p>
               <p>
                 <i className="fa fa-phone-alt me-3" />
-                +012 345 67890
+                <a
+                  href="tel:048325821"
+                  className="p-0 m-0"
+                  style={{ color: "#A7A8B4" }}
+                >
+                  04 8325821
+                </a>
               </p>
               <p>
                 <i className="fa fa-envelope me-3" />
