@@ -5,11 +5,11 @@ import LogoSvg from "../LogoSvg";
 import "owl.carousel/dist/assets/owl.carousel.css";
 
 const Navbar = () => {
-  // const [active, setactive] = useState("/");
+  const [active, setactive] = useState("/");
 
-  // const handleSetactive = (path) => {
-  //   setactive(path);
-  // };
+  const handleSetactive = (path) => {
+    setactive(path);
+  };
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -34,7 +34,7 @@ const Navbar = () => {
       </button>
       <div className="collapse navbar-collapse" id="navbarCollapse">
         <div className="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
-          <Link to="/" className="nav-item nav-linkc">
+          <Link to="/" className="nav-item nav-link">
             Home
           </Link>
           <Link to="/about" className="nav-item nav-link">
@@ -42,13 +42,13 @@ const Navbar = () => {
           </Link>
           {/* <a href="service" class="nav-item nav-link">Our Services</a> */}
           <div className="nav-item dropdown">
-            <Link
-              to="/services"
-              className="nav-link dropdown-toggle"
+            <div
+              className="nav-link dropdown-toggle "
+              style={{ cursor: "pointer" }}
               data-bs-toggle="dropdown"
             >
               Our Services
-            </Link>
+            </div>
             <div className="dropdown-menu bg-light border-0 m-0">
               <Link to="/services/air-freight" className="dropdown-item">
                 Air Freight
@@ -76,7 +76,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-      <div className="btn btn-primary px-3 d-none d-lg-block">
+      <div className="btn btn-primary px-3 d-none d-lg-block add-hover-color">
         <p className="p-0 m-0">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -87,10 +87,10 @@ const Navbar = () => {
           >
             <path d="M795-120q-116 0-236.5-56T335-335Q232-438 176-558.5T120-795q0-19.29 12.86-32.14Q145.71-840 165-840h140q14 0 24 10t14 25l26.93 125.64Q372-665 369.5-653.5t-10.73 19.73L259-533q26 44 55 82t64 72q37 38 78 69.5t86 55.5l95-98q10-11 23.15-15 13.15-4 25.85-2l119 26q15 4 25 16.04 10 12.05 10 26.96v135q0 19.29-12.86 32.14Q814.29-120 795-120ZM229-588l81-82-23-110H180q2 42 13.5 88.5T229-588Zm369 363q41 19 89 31t93 14v-107l-103-21-79 83ZM229-588Zm369 363Z" />
           </svg>
-          Call Any Time
+          Call Any Time {` `}
         </p>
-        <a href="" className="text-white p-0 m-0">
-          +91 9988334335
+        <a href="tel:048325821" className="text-white p-0 m-0">
+          04-8325821
         </a>
       </div>
     </nav>

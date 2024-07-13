@@ -546,3 +546,7 @@ background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
 .designedBy{
   display: none;
 }
+
+.add-hover-color:hover{
+  background-color: #0DD3F1 !important;
+}

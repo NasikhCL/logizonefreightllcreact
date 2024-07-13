@@ -8,12 +8,12 @@ const JoinOurTeamSection = () => {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <h1 className="display-6 mb-5">- JOIN OUR TEAM -</h1>
             <p className="mb-4">
-              Grassier global freight llc, 100 employees make their expertise a
-              lever of excellence in serving customers the most demanding. They
-              are ambassadors of the employer brand on land and Grassier global
-              freight Under the flag of excellence. Earn customer trust by
-              delivering operational excellence in complete safety: our
-              employees and all our stakeholders.
+              Logizone freight llc, 100 employees make their expertise a lever
+              of excellence in serving customers the most demanding. They are
+              ambassadors of the employer brand on land and Logizone freight
+              Under the flag of excellence. Earn customer trust by delivering
+              operational excellence in complete safety: our employees and all
+              our stakeholders.
               <br /> If you are interested? please share your CV.
             </p>
             <div className="row g-5">
