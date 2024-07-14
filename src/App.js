@@ -11,7 +11,6 @@ import { useEffect, useState } from "react";
 import ContactUs from "./routes/ContactUs";
 import NotFound from "./routes/NotFound";
 import { ScrollToTopOnPageChange } from "./components/ScrollToTopOnPageChange";
-import University from "./routes/University";
 import WOW from "wowjs";
 import Footer from "./components/Footer/Footer";
 function App() {
@@ -39,10 +38,22 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/services/air-freight" element={<Service />} />
-        <Route path="/services/sea-freight" element={<Service />} />
-        <Route path="/services/inland-transportation" element={<Service />} />
-        <Route path="/services/warehouse-distribution" element={<Service />} />
+        <Route
+          path="/services/air-freight"
+          element={<Service serviceType="air-freight" />}
+        />
+        <Route
+          path="/services/sea-freight"
+          element={<Service serviceType="sea-freight" />}
+        />
+        <Route
+          path="/services/inland-transportation"
+          element={<Service serviceType="inland-transportation" />}
+        />
+        <Route
+          path="/services/warehouse-distribution"
+          element={<Service serviceType="warehouse-distribution" />}
+        />
         <Route path="/contact" element={<ContactUs />} />
         {/* <Route path="/university" element=<University /> /> */}
         <Route path="/*" element={<NotFound />} />
