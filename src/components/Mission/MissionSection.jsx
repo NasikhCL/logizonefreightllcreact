@@ -1,9 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const MissionSection = () => {
   return (
     <div
       className="container-fluid  our-mission-container my-5 py-5 wow fadeIn"
+      style={{
+        backgroundImage:
+          "url('https://images.pexels.com/photos/11555089/pexels-photo-11555089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+      }}
       data-wow-delay="0.1s"
     >
       <div className="container py-5">
@@ -25,7 +29,9 @@ const MissionSection = () => {
                 cursor: "pointer",
               }}
             >
-              <p className="text-white text-center mb-0">GET IN TOUCH</p>
+              <Link to="/contact">
+                <p className="text-white text-center mb-0">GET IN TOUCH</p>
+              </Link>
             </div>
             {/* </div> */}
           </div>

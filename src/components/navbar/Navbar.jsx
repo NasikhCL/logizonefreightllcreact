@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import $ from "jquery";
 import LogoSvg from "../LogoSvg";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -10,6 +10,7 @@ const Navbar = () => {
   const handleSetactive = (path) => {
     setactive(path);
   };
+  const navigate = useNavigate();
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -46,6 +47,7 @@ const Navbar = () => {
               className="nav-link dropdown-toggle"
               style={{ cursor: "pointer" }}
               data-bs-toggle="dropdown"
+              onClick={() => navigate("/services")}
             >
               Our Services
             </div>
@@ -89,8 +91,8 @@ const Navbar = () => {
           </svg>
           Call Any Time {` `}
         </p>
-        <a href="tel:048325821" className="text-white p-0 m-0">
-          04-8325821
+        <a href="tel:+971-4-8325501" className="text-white p-0 m-0">
+          +971-4-8325501
         </a>
       </div>
     </nav>

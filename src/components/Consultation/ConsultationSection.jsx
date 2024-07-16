@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const ConsultationSection = () => {
   return (
     <div
@@ -18,11 +18,13 @@ const ConsultationSection = () => {
               className=" d-flex align-items-center"
               style={{ height: "90%", width: "fit-content" }}
             >
-              <div className="bg-white p-3">
-                <h5 className="p-0 m-0" style={{ color: "#00318e" }}>
-                  FREE CONSULTATION
-                </h5>
-              </div>
+              <Link to="/contact">
+                <div className="bg-white p-3">
+                  <h5 className="p-0 m-0" style={{ color: "#00318e" }}>
+                    FREE CONSULTATION
+                  </h5>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

@@ -40,11 +40,11 @@ const WelcomeSection = () => {
               <div className="border-top mt-4 pt-4">
                 <div className="d-flex align-items-center">
                   <img
-                    className="flex-shrink-0 rounded-circle me-3"
+                    className="flex-shrink-0 rounded-circle"
                     src="img/profile.jpg"
                     alt=""
                   />
-                  <h5 className="mb-0">Call Us: +012 345 6789</h5>
+                  <h5 className="mb-0">Call Us: +971-4-8325501</h5>
                 </div>
               </div>
             </div>

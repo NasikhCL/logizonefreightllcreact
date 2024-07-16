@@ -42,6 +42,7 @@ function App() {
           path="/services/air-freight"
           element={<Service serviceType="air-freight" />}
         />
+        <Route path="/services" element={<Service />} />
         <Route
           path="/services/sea-freight"
           element={<Service serviceType="sea-freight" />}

@@ -480,12 +480,12 @@
 }
 
 .our-mission-container{
-  background-image: url('https://images.pexels.com/photos/11555089/pexels-photo-11555089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  /* background-image: url('https://images.pexels.com/photos/11555089/pexels-photo-11555089.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  backdrop-filter: blur(10px);
 }
-
 
 .our-mission{
   width: auto;

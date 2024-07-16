@@ -70,22 +70,22 @@ const ContactUs = () => {
                 <h2>Address</h2>
                 <p>
                   <i className="fa fa-map-marker-alt me-3" />
-                  LOGIZONE FREIGHT LLC 107, AL FAHAD 4, DAMASCUS STREET, AL
-                  QUSAIS, DUBAI, UNITED ARAB EMIRATES PO BOX- 121170
+                  LOGIZONE FREIGHT LLC, 4th Floor, Office No: 53, Al Musallah
+                  Tower, Bur Dubai, Dubai, UAE
                 </p>
                 <p>
                   <i className="fa fa-phone-alt me-3" />
                   <a
-                    href="tel:048325821"
+                    href="tel:+971-4-8325501"
                     className="text-gray p-0 m-0"
                     style={{ color: "#696E77" }}
                   >
-                    04-8325821
+                    +971-4-8325501
                   </a>
                 </p>
                 <p>
                   <i className="fa fa-envelope me-3" />
-                  admin@logizonefreight.com
+                  info@logizonefreight.com
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ const ContactUs = () => {
             >
               <div className="position-relative rounded overflow-hidden h-100">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31161.94696388662!2d74.98400649999999!3d12.50002155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba482155de6aad1%3A0x3a07d5464844020a!2sKasaragod%2C%20Kerala!5e0!3m2!1sen!2sin!4v1720362781839!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.373861967431!2d55.29592547538376!3d25.258005977671843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f433b903adf3b%3A0x9fb693268cbdbce1!2sAl%20Musallah%20Tower!5e0!3m2!1sen!2sin!4v1721143064198!5m2!1sen!2sin"
                   width={600}
                   height={450}
                   style={{ border: 0 }}

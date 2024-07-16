@@ -1,5 +1,6 @@
 import React from "react";
 import LogoSvg from "../LogoSvg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -36,41 +37,35 @@ const Footer = () => {
               <h5 className="text-light mb-4">Address</h5>
               <p>
                 <i className="fa fa-map-marker-alt me-3" />
-                LOGIZONE FREIGHT LLC 107, AL FAHAD 4, DAMASCUS STREET, AL
-                QUSAIS, DUBAI, UNITED ARAB EMIRATES PO BOX- 121170
+                LOGIZONE FREIGHT LLC, 4th Floor, Office No: 53, Al Musallah
+                Tower, Bur Dubai, Dubai, UAE
               </p>
               <p>
                 <i className="fa fa-phone-alt me-3" />
                 <a
-                  href="tel:048325821"
+                  href="tel:+971-4-8325501"
                   className="p-0 m-0"
                   style={{ color: "#A7A8B4" }}
                 >
-                  04 8325821
+                  +971-4-8325501
                 </a>
               </p>
               <p>
                 <i className="fa fa-envelope me-3" />
-                admin@logizonefreight.com
+                info@logizonefreight.com
               </p>
             </div>
             <div className="col-lg-3 col-md-6">
               <h5 className="text-light mb-4">Quick Links</h5>
-              <a className="btn btn-link" href="">
+              <Link className="btn btn-link" to="/about">
                 About Us
-              </a>
-              <a className="btn btn-link" href="">
+              </Link>
+              <Link className="btn btn-link" to="/contact">
                 Contact Us
-              </a>
-              <a className="btn btn-link" href="">
+              </Link>
+              <Link className="btn btn-link" to="/services">
                 Our Services
-              </a>
-              <a className="btn btn-link" href="">
-                Terms &amp; Condition
-              </a>
-              <a className="btn btn-link" href="">
-                Support
-              </a>
+              </Link>
             </div>
           </div>
         </div>
