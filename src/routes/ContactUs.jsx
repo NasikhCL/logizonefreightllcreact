@@ -37,8 +37,9 @@ const ContactUs = () => {
     <>
       {/* Page Header Start */}
       <div
-        className="container-fluid page-header py-5 mb-5 wow fadeIn"
+        className="container-fluid page-header mb-5 wow fadeIn"
         data-wow-delay="0.1s"
+        style={{ paddingTop: "120px" }}
       >
         <div className="container py-5">
           <h1 className="display-4 animated slideInDown mb-4">Contact Us</h1>
@@ -78,7 +79,10 @@ const ContactUs = () => {
                   <a
                     href="tel:+971-4-8325501"
                     className="text-gray p-0 m-0"
-                    style={{ color: "#696E77" }}
+                    style={{
+                      color: "#696E77",
+                      "&:hover": { background: "blue !important" },
+                    }}
                   >
                     +971-4-8325501
                   </a>
