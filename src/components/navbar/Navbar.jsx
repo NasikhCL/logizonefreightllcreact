@@ -22,7 +22,7 @@ const Navbar = () => {
     <nav className="navbar  navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
       <Link to="/home" className="navbar-brand d-flex align-items-center">
         <div style={{ display: "flex", alignItems: "center", height: "auto" }}>
-          <LogoSvg />
+          <LogoSvg height={100} width={120} />
         </div>
       </Link>
       <button
@@ -42,37 +42,9 @@ const Navbar = () => {
             About Us
           </Link>
           {/* <a href="service" class="nav-item nav-link">Our Services</a> */}
-          <div className="nav-item dropdown">
-            <div
-              className="nav-link dropdown-toggle"
-              style={{ cursor: "pointer" }}
-              data-bs-toggle="dropdown"
-              onClick={() => navigate("/services")}
-            >
-              Our Services
-            </div>
-            <div className="dropdown-menu bg-light border-0 m-0">
-              <Link to="/services/air-freight" className="dropdown-item">
-                Air Freight
-              </Link>
-              <Link to="/services/sea-freight" className="dropdown-item">
-                Sea Freight
-              </Link>
-              <Link
-                to="/services/inland-transportation"
-                className="dropdown-item"
-              >
-                Inland Transportation
-              </Link>
-              <Link
-                to="/services/warehouse-distribution"
-                className="dropdown-item"
-              >
-                Warehouse &amp; Distribution
-              </Link>
-              {/* <a href="404" class="dropdown-item">404 Page</a> */}
-            </div>
-          </div>
+          <Link to="/services" className="nav-item nav-link">
+            Services
+          </Link>
           <Link to="/contact" className="nav-item nav-link">
             Contact Us
           </Link>

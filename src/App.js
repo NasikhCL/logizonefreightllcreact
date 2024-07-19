@@ -38,11 +38,11 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route
+        <Route path="/services" element={<Service />} />
+        {/* <Route
           path="/services/air-freight"
           element={<Service serviceType="air-freight" />}
         />
-        <Route path="/services" element={<Service />} />
         <Route
           path="/services/sea-freight"
           element={<Service serviceType="sea-freight" />}
@@ -54,7 +54,7 @@ function App() {
         <Route
           path="/services/warehouse-distribution"
           element={<Service serviceType="warehouse-distribution" />}
-        />
+        /> */}
         <Route path="/contact" element={<ContactUs />} />
         {/* <Route path="/university" element=<University /> /> */}
         <Route path="/*" element={<NotFound />} />

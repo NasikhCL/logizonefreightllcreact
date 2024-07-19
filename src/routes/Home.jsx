@@ -18,9 +18,9 @@ const Home = () => {
       <MissionSection />
       <ServicesSection />
       <ConsultationSection />
-      <JoinOurTeamSection />
+      {/* <JoinOurTeamSection /> */}
       {/* Footer Start */}
-  
+
       {/* Footer End */}
     </div>
   );

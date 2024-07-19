@@ -30,10 +30,7 @@ const Service = ({ serviceType }) => {
         className="container-fluid  our-mission-container my-5 py-5 wow fadeIn"
         data-wow-delay="0.1s"
         style={{
-          backgroundImage: `url("${
-            serviceImageObject?.[serviceType || ""]?.[0] ||
-            "https://images.pexels.com/photos/221047/pexels-photo-221047.jpeg?auto=compress&cs=tinysrgb&w=800"
-          }")`,
+          backgroundImage: `url("https://images.pexels.com/photos/23221406/pexels-photo-23221406/free-photo-of-container-ship-on-sea.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2")`,
         }}
       >
         <div className="container py-5">
