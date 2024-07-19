@@ -6,6 +6,7 @@ import MissionSection from "../components/Mission/MissionSection";
 import ServicesSection from "../components/Services/ServicesSection";
 import ConsultationSection from "../components/Consultation/ConsultationSection";
 import JoinOurTeamSection from "../components/JoinOurTeam/JoinOurTeamSection";
+import { GallerySection } from "../components/Gallery/GallerySection";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <MissionSection />
       <ServicesSection />
       <ConsultationSection />
+      <GallerySection />
       {/* <JoinOurTeamSection /> */}
       {/* Footer Start */}
 
