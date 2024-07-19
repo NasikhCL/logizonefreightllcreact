@@ -19,7 +19,7 @@ const Home = () => {
       <MissionSection />
       <ServicesSection />
       <ConsultationSection />
-      <GallerySection />
+      {/* <GallerySection /> */}
       {/* <JoinOurTeamSection /> */}
       {/* Footer Start */}
 
