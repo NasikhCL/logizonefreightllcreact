@@ -15,11 +15,32 @@ import WOW from "wowjs";
 import Footer from "./components/Footer/Footer";
 function App() {
   const [loading, setLoading] = useState(false); // Initially set to false
+  const [active, setActive] = useState("/"); // Initially set to false
+  const [showMessage, setShowMessage] = useState(true);
+  const [showElements, setShowElements] = useState(false);
   const location = useLocation();
   useEffect(() => {
     const wow = new WOW.WOW();
     wow.init();
   }, []);
+  const handleSetActive = (path) => {
+    setActive(path);
+  };
+  useEffect(() => {
+    handleSetActive(location.pathname);
+
+    if (location.pathname === "/") {
+      const timer = setTimeout(() => {
+        setShowElements(true);
+      }, 5000);
+
+      return () => {
+        clearTimeout(timer);
+      };
+    } else {
+      setShowElements(false);
+    }
+  }, [location]);
   useEffect(() => {
     setLoading(true); // Set loading to true when location changes
 
@@ -60,14 +81,22 @@ function App() {
       </Routes>
       <ScrollToTopOnPageChange />
       <Footer />
-      <a
-        href="https://wa.me/971545737429?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
-        className="floating-whatsapp"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-whatsapp fa-2x"></i>
-      </a>
+      {/* Floating Message */}
+      {showElements && (
+        <div className="floating-message">Chat with us in Whatsapp!</div>
+      )}
+
+      {/* Floating WhatsApp Button */}
+      {showElements && (
+        <a
+          href="https://wa.me/971545737429?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
+          className="floating-whatsapp"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-whatsapp fa-2x"></i>
+        </a>
+      )}
     </div>
   );
 }

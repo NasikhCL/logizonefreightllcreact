@@ -29,7 +29,7 @@ const Navbar = () => {
     <nav className="navbar  navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
       <Link to="/" className="navbar-brand d-flex align-items-center">
         <div style={{ display: "flex", alignItems: "center", height: "auto" }}>
-          <LogoSvg height={100} width={120} />
+          <LogoSvg height={80} width={120} />
         </div>
       </Link>
       <button
