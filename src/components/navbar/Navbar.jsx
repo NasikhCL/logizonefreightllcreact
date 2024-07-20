@@ -9,6 +9,7 @@ const Navbar = () => {
 
   const handleSetactive = (path) => {
     setactive(path);
+    setIsOpen(false);
   };
   const navigate = useNavigate();
 
