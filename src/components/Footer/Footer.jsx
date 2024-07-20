@@ -19,16 +19,32 @@ const Footer = () => {
                 with years in freight and logistics industry.
               </p>
               <div className="d-flex pt-2">
-                <a className="btn btn-square me-1" href="www.twitter.com">
+                <a
+                  className="btn btn-square me-1"
+                  href="https://www.twitter.com"
+                  target="_blank"
+                >
                   <i className="fab fa-twitter" />
                 </a>
-                <a className="btn btn-square me-1" href="www.facebook.com">
+                <a
+                  className="btn btn-square me-1"
+                  href="https://www.facebook.com/logisol"
+                  target="_blank"
+                >
                   <i className="fab fa-facebook-f" />
                 </a>
-                <a className="btn btn-square me-1" href="www.youtube.com">
-                  <i className="fab fa-youtube" />
+                <a
+                  className="btn btn-square me-1"
+                  href="https://www.instagram.com/logizone_freight/"
+                  target="_blank"
+                >
+                  <i className="fab fa-instagram" />
                 </a>
-                <a className="btn btn-square me-0" href="www.linkedin.com">
+                <a
+                  className="btn btn-square me-0"
+                  href="www.linkedin.com"
+                  target="_blank"
+                >
                   <i className="fab fa-linkedin-in" />
                 </a>
               </div>
