@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 import Footer from "../components/Footer/Footer";
 import emailjs from "@emailjs/browser";
+import { Link } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import WOW from "wowjs";
@@ -46,7 +47,7 @@ const ContactUs = () => {
           <nav aria-label="breadcrumb animated slideInDown">
             <ol className="breadcrumb mb-0">
               <li className="breadcrumb-item">
-                <a href="#">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li className="breadcrumb-item active" aria-current="page">
                 Contact Us

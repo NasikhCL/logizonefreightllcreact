@@ -18,10 +18,11 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
 
+  const location = useLocation();
+
   useEffect(() => {
     handleSetactive(location.pathname);
-  }, []);
-  const location = useLocation();
+  }, [location]);
 
   return (
     <nav className="navbar  navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Brudcrubs = ({ PageName }) => {
   return (
@@ -15,11 +16,9 @@ const Brudcrubs = ({ PageName }) => {
           data-wow-delay="0.3s"
         >
           <li className="breadcrumb-item">
-             <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
-          <li className="breadcrumb-item active  text-primary">
-            {PageName}
-          </li>
+          <li className="breadcrumb-item active text-primary">{PageName}</li>
         </ol>
       </div>
     </div>

@@ -203,6 +203,8 @@
 .page-header .breadcrumb-item,
 .page-header .breadcrumb-item a {
   font-weight: 500;
+  color: #696E77 !important;
+
 }
 
 .page-header .breadcrumb-item a,
@@ -555,4 +557,13 @@ background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
 
 .text-e-one{
   color: #E1E1E1
+}
+
+.breadcrumb-item a {
+  color: #696E77 !important;
+
+}
+
+.breadcrumb-item.active {
+  color: #015FC9 !important;
 }
