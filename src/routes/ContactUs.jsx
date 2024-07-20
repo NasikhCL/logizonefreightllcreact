@@ -77,20 +77,18 @@ const ContactUs = () => {
                 </p>
                 <p>
                   <i className="fa fa-phone-alt me-3" />
-                  <a
-                    href="tel:+971-4-8325501"
-                    className="text-gray p-0 m-0"
-                    style={{
-                      color: "#696E77",
-                      "&:hover": { background: "blue !important" },
-                    }}
-                  >
+                  <a href="tel:+971-4-8325501" className="text-gray p-0 m-0">
                     +971-4-8325501
                   </a>
                 </p>
                 <p>
                   <i className="fa fa-envelope me-3" />
-                  info@logizonefreight.com
+                  <a
+                    href="mailto:info@logizonefreight.com?subject=Inquiry"
+                    className="text-gray p-0 m-0"
+                  >
+                    info@logizonefreight.com
+                  </a>
                 </p>
               </div>
               <div
@@ -99,7 +97,7 @@ const ContactUs = () => {
               >
                 <a
                   className="btn btn-square me-1"
-                  href="https://www.twitter.com"
+                  href="https://x.com/logizonefreight"
                   target="_blank"
                 >
                   <i className="fab fa-twitter" />

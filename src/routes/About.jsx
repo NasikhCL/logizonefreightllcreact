@@ -17,7 +17,13 @@ const About = () => {
       <Brudcrubs PageName="About" />
       {/* Header End */}
       {/* top section */}
-      <div className="container-fluid team py-5">
+      <div
+        className="container-fluid team"
+        style={{
+          paddingTop: "3rem !important",
+          paddingBottom: "2rem !important",
+        }}
+      >
         <div className="container">
           <div className="section-title wow fadeInUp" data-wow-delay="0.1s">
             <div className="sub-style">

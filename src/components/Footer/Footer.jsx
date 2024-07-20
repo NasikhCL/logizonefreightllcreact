@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="d-flex pt-2">
                 <a
                   className="btn btn-square me-1"
-                  href="https://www.twitter.com"
+                  href="https://x.com/logizonefreight"
                   target="_blank"
                 >
                   <i className="fab fa-twitter" />
