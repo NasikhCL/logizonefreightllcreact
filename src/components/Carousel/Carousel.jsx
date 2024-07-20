@@ -38,12 +38,9 @@ const Carousel = () => {
                       and having reliable network with our business partners in
                       the world especially in FAR EAST REGION.
                     </p>
-                    <a
-                      href="contact.html"
-                      className="btn btn-primary py-3 px-5"
-                    >
+                    <Link to="/contact" className="btn btn-primary py-3 px-5">
                       ENQUIRE NOW
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -74,12 +71,9 @@ const Carousel = () => {
                       and having reliable network with our business partners in
                       the world especially in FAR EAST REGION.
                     </p>
-                    <a
-                      href="contact.html"
-                      className="btn btn-primary py-3 px-5"
-                    >
+                    <Link to="/contact" className="btn btn-primary py-3 px-5">
                       ENQUIRE NOW
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -110,12 +104,9 @@ const Carousel = () => {
                       and having reliable network with our business partners in
                       the world especially in FAR EAST REGION.
                     </p>
-                    <a
-                      href="contact.html"
-                      className="btn btn-primary py-3 px-5"
-                    >
+                    <Link to="/contact" className="btn btn-primary py-3 px-5">
                       ENQUIRE NOW
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -146,12 +137,9 @@ const Carousel = () => {
                       and having reliable network with our business partners in
                       the world especially in FAR EAST REGION.
                     </p>
-                    <a
-                      href="contact.html"
-                      className="btn btn-primary py-3 px-5"
-                    >
+                    <Link to="/contact" className="btn btn-primary py-3 px-5">
                       ENQUIRE NOW
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -181,12 +169,9 @@ const Carousel = () => {
                       and having reliable network with our business partners in
                       the world especially in FAR EAST REGION.
                     </p>
-                    <a
-                      href="contact.html"
-                      className="btn btn-primary py-3 px-5"
-                    >
+                    <Link to="/contact" className="btn btn-primary py-3 px-5">
                       ENQUIRE NOW
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
