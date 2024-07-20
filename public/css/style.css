@@ -86,6 +86,8 @@
   top: 0; 
   width: 100%; 
   left: 0; 
+  border-bottom: 1px #015FC9 solid ;
+  
   right: 0; 
 
 }
