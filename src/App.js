@@ -16,8 +16,10 @@ import Footer from "./components/Footer/Footer";
 function App() {
   const [loading, setLoading] = useState(false); // Initially set to false
   const [active, setActive] = useState("/"); // Initially set to false
-  const [showMessage, setShowMessage] = useState(true);
+  const [showMessage, setShowMessage] = useState(false);
   const [showElements, setShowElements] = useState(false);
+  const [showIcon, setShowIcon] = useState(false);
+
   const location = useLocation();
   useEffect(() => {
     const wow = new WOW.WOW();
@@ -27,20 +29,20 @@ function App() {
     setActive(path);
   };
   useEffect(() => {
-    handleSetActive(location.pathname);
+    // Set a timer to show both the WhatsApp icon and chat message after 5 seconds
+    const timer = setTimeout(() => {
+      setShowIcon(true);
+      if (location.pathname === "/") {
+        setShowMessage(true);
+      }
+    }, 5000);
 
-    if (location.pathname === "/") {
-      const timer = setTimeout(() => {
-        setShowElements(true);
-      }, 5000);
-
-      return () => {
-        clearTimeout(timer);
-      };
-    } else {
-      setShowElements(false);
-    }
+    // Cleanup timer on component unmount
+    return () => {
+      clearTimeout(timer);
+    };
   }, [location]);
+
   useEffect(() => {
     setLoading(true); // Set loading to true when location changes
 
@@ -82,12 +84,12 @@ function App() {
       <ScrollToTopOnPageChange />
       <Footer />
       {/* Floating Message */}
-      {showElements && (
+      {showMessage && (
         <div className="floating-message">Chat with us in Whatsapp!</div>
       )}
 
       {/* Floating WhatsApp Button */}
-      {showElements && (
+      {showIcon && (
         <a
           href="https://wa.me/971545737429?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
           className="floating-whatsapp"
