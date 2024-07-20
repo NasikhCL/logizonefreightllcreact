@@ -120,23 +120,23 @@ const servicesArray = [
       </svg>
     ),
   },
-  {
-    id: 8,
-    serviceTitle: "FIRS Follow-Up and Closing",
-    serviceDescription:
-      "Our FIRS (Federal Inland Revenue Service) Follow-Up and Closing service ensures that all your tax obligations and compliance requirements are managed efficiently. We handle the entire process from initial follow-ups to closing out any outstanding issues, providing you with peace of mind and ensuring full compliance with tax regulations.",
-    serviceSvg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        height="48px"
-        viewBox="0 -960 960 960"
-        width="48px"
-        fill="#e8eaed"
-      >
-        <path d="M196-331q-20-36-28-72.5t-8-74.5q0-131 94.5-225.5T480-798h43l-80-80 39-39 149 149-149 149-40-40 79-79h-41q-107 0-183.5 76.5T220-478q0 29 5.5 55t13.5 49l-43 43ZM476-40 327-189l149-149 39 39-80 80h45q107 0 183.5-76.5T740-479q0-29-5-55t-15-49l43-43q20 36 28.5 72.5T800-479q0 131-94.5 225.5T480-159h-45l80 80-39 39Z" />
-      </svg>
-    ),
-  },
+  // {
+  //   id: 8,
+  //   serviceTitle: "FIRS Follow-Up and Closing",
+  //   serviceDescription:
+  //     "Our FIRS (Federal Inland Revenue Service) Follow-Up and Closing service ensures that all your tax obligations and compliance requirements are managed efficiently. We handle the entire process from initial follow-ups to closing out any outstanding issues, providing you with peace of mind and ensuring full compliance with tax regulations.",
+  //   serviceSvg: (
+  //     <svg
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       height="48px"
+  //       viewBox="0 -960 960 960"
+  //       width="48px"
+  //       fill="#e8eaed"
+  //     >
+  //       <path d="M196-331q-20-36-28-72.5t-8-74.5q0-131 94.5-225.5T480-798h43l-80-80 39-39 149 149-149 149-40-40 79-79h-41q-107 0-183.5 76.5T220-478q0 29 5.5 55t13.5 49l-43 43ZM476-40 327-189l149-149 39 39-80 80h45q107 0 183.5-76.5T740-479q0-29-5-55t-15-49l43-43q20 36 28.5 72.5T800-479q0 131-94.5 225.5T480-159h-45l80 80-39 39Z" />
+  //     </svg>
+  //   ),
+  // },
   {
     id: 9,
     serviceTitle: "Import and Export",
@@ -154,23 +154,23 @@ const servicesArray = [
       </svg>
     ),
   },
-  {
-    id: 10,
-    serviceTitle: "MOE and MOCCAE Handling",
-    serviceDescription:
-      "Our MOE (Ministry of Environment) and MOCCAE (Ministry of Climate Change and Environment) Handling services ensure that your environmental and climate-related regulatory requirements are managed efficiently. We navigate the complexities of these ministries' regulations to ensure your operations are compliant and streamlined.",
-    serviceSvg: (
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        height="48px"
-        viewBox="0 -960 960 960"
-        width="48px"
-        fill="#e8eaed"
-      >
-        <path d="M480-730v-79.58q0-33.42 23.5-56.92t56.92-23.5H640v79.58q0 33.42-23.5 56.92T559.58-730H480ZM200-490q-49.71 0-84.86-35.14Q80-560.29 80-610v-120h120q49.71 0 84.86 35.14Q320-659.71 320-610v120H200ZM640-90q-42 0-79.63-13.6Q522.74-117.2 492-141l-31 31q-9 9-20.5 9t-20.5-9q-9-9-9-20.5t9-20.5l31-31q-23.8-30.88-37.4-68.68Q400-288.47 400-330q0-100 70-170.5T640-571h241v241q0 100-70.5 170T640-90Zm0-60q75.43 0 127.21-53.17Q819-256.34 819-331v-179H641q-74.66 0-127.83 52.31T460-330q0 29.47 9 55.73Q478-248 494-225l126-126q9-9 20.5-9t20.5 9q9 9 9 20.5t-9 20.5L535-184q23 16 49.27 25 26.26 9 55.73 9Zm0-180Z" />
-      </svg>
-    ),
-  },
+  // {
+  //   id: 10,
+  //   serviceTitle: "MOE and MOCCAE Handling",
+  //   serviceDescription:
+  //     "Our MOE (Ministry of Environment) and MOCCAE (Ministry of Climate Change and Environment) Handling services ensure that your environmental and climate-related regulatory requirements are managed efficiently. We navigate the complexities of these ministries' regulations to ensure your operations are compliant and streamlined.",
+  //   serviceSvg: (
+  //     <svg
+  //       xmlns="http://www.w3.org/2000/svg"
+  //       height="48px"
+  //       viewBox="0 -960 960 960"
+  //       width="48px"
+  //       fill="#e8eaed"
+  //     >
+  //       <path d="M480-730v-79.58q0-33.42 23.5-56.92t56.92-23.5H640v79.58q0 33.42-23.5 56.92T559.58-730H480ZM200-490q-49.71 0-84.86-35.14Q80-560.29 80-610v-120h120q49.71 0 84.86 35.14Q320-659.71 320-610v120H200ZM640-90q-42 0-79.63-13.6Q522.74-117.2 492-141l-31 31q-9 9-20.5 9t-20.5-9q-9-9-9-20.5t9-20.5l31-31q-23.8-30.88-37.4-68.68Q400-288.47 400-330q0-100 70-170.5T640-571h241v241q0 100-70.5 170T640-90Zm0-60q75.43 0 127.21-53.17Q819-256.34 819-331v-179H641q-74.66 0-127.83 52.31T460-330q0 29.47 9 55.73Q478-248 494-225l126-126q9-9 20.5-9t20.5 9q9 9 9 20.5t-9 20.5L535-184q23 16 49.27 25 26.26 9 55.73 9Zm0-180Z" />
+  //     </svg>
+  //   ),
+  // },
   {
     id: 11,
     serviceTitle: "Shipping Dangerous Goods",
