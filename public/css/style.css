@@ -569,3 +569,24 @@ background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
 .breadcrumb-item.active {
   color: #015FC9 !important;
 }
+
+.floating-whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25D366; /* WhatsApp green color */
+  color: white;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.floating-whatsapp:hover {
+  background-color: #128C7E; /* Darker green */
+  cursor: pointer;
+}

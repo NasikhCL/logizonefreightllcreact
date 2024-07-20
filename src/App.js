@@ -60,6 +60,14 @@ function App() {
       </Routes>
       <ScrollToTopOnPageChange />
       <Footer />
+      <a
+        href="https://wa.me/971545737429?text=Hello%2C%20I%20would%20like%20to%20inquire%20about%20your%20services."
+        className="floating-whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="fab fa-whatsapp fa-2x"></i>
+      </a>
     </div>
   );
 }
