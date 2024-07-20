@@ -4,6 +4,7 @@ import service2 from "../../Images/carousel-2.jpeg";
 import service3 from "../../Images/carousel-3.jpeg";
 import service4 from "../../Images/carousel-4.jpeg";
 import service5 from "../../Images/carousel-5.jpeg";
+import { Link } from "react-router-dom";
 const Carousel = () => {
   return (
     <div className="container-fluid p-0" style={{ marginTop: "96px" }}>
