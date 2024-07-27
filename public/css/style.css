@@ -178,8 +178,8 @@
 .carousel-control-next-icon {
   width: 3rem;
   height: 3rem;
-  background-color: var(--primary);
-  border: 15px solid var(--primary);
+  background-color: transparent;
+  /* border: 15px solid var(--primary); */
   border-radius: 50px;
 }
 
@@ -558,7 +558,10 @@ background-image: linear-gradient(to bottom, rgba(14, 65, 102, 0.86), #0e4166);
 
 
 .text-e-one{
-  color: #E1E1E1
+  color: white !important
+}
+.text-e-two{
+  color:#15233C !important
 }
 
 .breadcrumb-item a {

@@ -27,12 +27,22 @@ const Carousel = () => {
                 <div className="row">
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
-                      className="display-3 mb-3 text-e-one animated slideInDown"
-                      style={{ color: "#E1E1E1 !important" }}
+                      className="display-3 mb-3  animated slideInDown text-e-one"
+                      style={{
+                        color: "white !important",
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
                     >
                       Logizone Freight LLC{" "}
                     </h1>
-                    <p className="mb-5" style={{ color: "white !important" }}>
+                    <p
+                      className="mb-5"
+                      style={{
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
+                    >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
                       in the United Arab Emirates having own office in Dubai,
@@ -61,11 +71,21 @@ const Carousel = () => {
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 mb-3 animated slideInDown text-e-one"
-                      style={{ color: "#E1E1E1 !important" }}
+                      style={{
+                        color: "white !important",
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
                     >
                       Logizone Freight LLC{" "}
                     </h1>
-                    <p className=" mb-5" style={{ color: "white !important" }}>
+                    <p
+                      className=" mb-5"
+                      style={{
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
+                    >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
                       in the United Arab Emirates having own office in Dubai,
@@ -94,11 +114,22 @@ const Carousel = () => {
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 mb-3 animated slideInDown text-e-one"
-                      style={{ color: "#E1E1E1 !important" }}
+                      style={{
+                        color: "white !important",
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
                     >
                       Logizone Freight LLC{" "}
                     </h1>
-                    <p className=" mb-5" style={{ color: "white !important" }}>
+                    <p
+                      className=" mb-5"
+                      style={{
+                        color: "white !important",
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
+                    >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
                       in the United Arab Emirates having own office in Dubai,
@@ -127,11 +158,21 @@ const Carousel = () => {
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 mb-3 animated slideInDown text-e-one"
-                      style={{ color: "#E1E1E1 !important" }}
+                      style={{
+                        color: "white !important",
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
                     >
                       Logizone Freight LLC{" "}
                     </h1>
-                    <p className=" mb-5" style={{ color: "white !important" }}>
+                    <p
+                      className=" mb-5"
+                      style={{
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
+                    >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
                       in the United Arab Emirates having own office in Dubai,
@@ -159,11 +200,21 @@ const Carousel = () => {
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
                       className="display-3 mb-3 animated slideInDown text-e-one"
-                      style={{ color: "#E1E1E1 !important" }}
+                      style={{
+                        color: "white !important",
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
                     >
                       Logizone Freight LLC{" "}
                     </h1>
-                    <p className="mb-5" style={{ color: "white !important" }}>
+                    <p
+                      className="mb-5"
+                      style={{
+                        background: "rgba(0, 0, 0, 0.5)",
+                        padding: "3px",
+                      }}
+                    >
                       We introduce ourselves as one of the aggressive and unique
                       entry in freight forwarding industry in DUBAI, established
                       in the United Arab Emirates having own office in Dubai,
