@@ -34,7 +34,7 @@ const Carousel = () => {
                         padding: "3px",
                       }}
                     >
-                      Logizone Freight LLC{" "}
+                      LOGIZONE FREIGHT LLC
                     </h1>
                     <p
                       className="mb-5"
@@ -77,7 +77,7 @@ const Carousel = () => {
                         padding: "3px",
                       }}
                     >
-                      Logizone Freight LLC{" "}
+                      LOGIZONE FREIGHT LLC
                     </h1>
                     <p
                       className=" mb-5"
@@ -113,14 +113,14 @@ const Carousel = () => {
                 <div className="row">
                   <div className="col-12 col-lg-6 margin-top-laptop-screen">
                     <h1
-                      className="display-3 mb-3 animated slideInDown text-e-one"
+                      className="display-3 mb-3 animated slideInDown text-e-one "
                       style={{
                         color: "white !important",
                         background: "rgba(0, 0, 0, 0.5)",
                         padding: "3px",
                       }}
                     >
-                      Logizone Freight LLC{" "}
+                      LOGIZONE FREIGHT LLC
                     </h1>
                     <p
                       className=" mb-5"
@@ -164,7 +164,7 @@ const Carousel = () => {
                         padding: "3px",
                       }}
                     >
-                      Logizone Freight LLC{" "}
+                      LOGIZONE FREIGHT LLC
                     </h1>
                     <p
                       className=" mb-5"
@@ -206,7 +206,7 @@ const Carousel = () => {
                         padding: "3px",
                       }}
                     >
-                      Logizone Freight LLC{" "}
+                      LOGIZONE FREIGHT LLC
                     </h1>
                     <p
                       className="mb-5"
