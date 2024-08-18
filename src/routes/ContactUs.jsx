@@ -118,7 +118,7 @@ const ContactUs = () => {
                 </a>
                 <a
                   className="btn btn-square me-0"
-                  href="www.linkedin.com"
+                  href="https://www.linkedin.com"
                   target="_blank"
                 >
                   <i className="fab fa-linkedin-in" />

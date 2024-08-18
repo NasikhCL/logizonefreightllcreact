@@ -1,19 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import $ from "jquery";
 import LogoSvg from "../LogoSvg";
 import "owl.carousel/dist/assets/owl.carousel.css";
+import "bootstrap/dist/js/bootstrap.bundle.min"; // Make sure Bootstrap's JS is imported
 
 const Navbar = () => {
-  const [active, setactive] = useState("/");
-
-  const handleSetactive = (path) => {
-    setactive(path);
-    setIsOpen(false);
-  };
-  const navigate = useNavigate();
-
+  const [active, setActive] = useState("/");
   const [isOpen, setIsOpen] = useState(false);
+
+  const collapseRef = useRef(null);
+
+  const handleSetActive = (path) => {
+    setActive(path);
+    if (collapseRef.current && isOpen) {
+      $(collapseRef.current).collapse("hide"); // Collapse the menu
+      setIsOpen(false);
+    }
+  };
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -22,11 +26,11 @@ const Navbar = () => {
   const location = useLocation();
 
   useEffect(() => {
-    handleSetactive(location.pathname);
+    handleSetActive(location.pathname);
   }, [location]);
 
   return (
-    <nav className="navbar  navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
+    <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5">
       <Link to="/" className="navbar-brand d-flex align-items-center">
         <div style={{ display: "flex", alignItems: "center", height: "auto" }}>
           <LogoSvg height={80} width={120} />
@@ -35,31 +39,35 @@ const Navbar = () => {
       <button
         type="button"
         className="navbar-toggler"
+        onClick={toggleNavbar}
         data-bs-toggle="collapse"
         data-bs-target="#navbarCollapse"
       >
         <span className="navbar-toggler-icon" />
       </button>
-      <div className="collapse navbar-collapse" id="navbarCollapse">
+      <div
+        className="collapse navbar-collapse"
+        id="navbarCollapse"
+        ref={collapseRef}
+      >
         <div className="navbar-nav mx-auto bg-light rounded pe-4 py-3 py-lg-0">
           <Link
             to="/"
-            onClick={() => handleSetactive("/")}
+            onClick={() => handleSetActive("/")}
             className={`nav-item nav-link ${active === "/" && "active"}`}
           >
             Home
           </Link>
           <Link
             to="/about"
-            onClick={() => handleSetactive("/about")}
+            onClick={() => handleSetActive("/about")}
             className={`nav-item nav-link ${active === "/about" && "active"}`}
           >
             About Us
           </Link>
-          {/* <a href="service" class="nav-item nav-link">Our Services</a> */}
           <Link
             to="/services"
-            onClick={() => handleSetactive("/services")}
+            onClick={() => handleSetActive("/services")}
             className={`nav-item nav-link ${
               active === "/services" && "active"
             }`}
@@ -68,7 +76,7 @@ const Navbar = () => {
           </Link>
           <Link
             to="/contact"
-            onClick={() => handleSetactive("/contact")}
+            onClick={() => handleSetActive("/contact")}
             className={`nav-item nav-link ${active === "/contact" && "active"}`}
           >
             Contact Us

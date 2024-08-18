@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 const TopHead = () => {
   return (
@@ -42,7 +42,7 @@ const TopHead = () => {
                 <i className="fab fa-instagram" />
               </a>
               <a
-                href="/"
+                href="https://www.linkedin.com"
                 className="btn btn-light btn-square border rounded-circle nav-fill me-0"
               >
                 <i className="fab fa-linkedin-in" />
@@ -52,7 +52,7 @@ const TopHead = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default TopHead
+export default TopHead;
